@@ -111,3 +111,54 @@
 }
 
 
+/* vision card section */
+.vision-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.vision-card{
+    padding: 32px;
+    border-radius: 16px;
+    max-width: 400px;
+
+}
+
+.future-vision-title{
+    font-size: 40px;
+    font-weight: 800px;
+    margin: 80px 0px 24px;
+}
+
+.future-vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 70%);
+    margin-bottom: 32px;
+}
+
+.vision-name{
+    color: rgba(14, 14, 14, 80%);
+    font-size: 20px;
+    margin: 12px 0px 24px;
+}
+
+.vision-card-description{
+    color: rgba(14, 14, 14, 70%);
+    margin-bottom: 24px;
+}
+
+
+.vision-card-button{
+    border: 1px solid;
+    font-family: "Fira Sans", serif;
+    color: white;
+    /* background-color: black;  ????*/
+    padding: 11px 20px;
+    border-radius: 8px;
+}
+
+.vision-card-button:hover{
+    opacity: 65%;
+}
