@@ -345,3 +345,26 @@
 .donate-now-button:hover{
     opacity: 80%;
 }
+
+
+
+
+/* footer section */
+.footer-section{
+    margin: 50px 160px;
+}
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.media-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 23px;
+}
