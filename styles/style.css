@@ -162,3 +162,34 @@
 .vision-card-button:hover{
     opacity: 65%;
 }
+
+/* quote section */
+
+.quote-section{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 2% 15%;
+    margin-top: 32px;
+    padding: 48px 24px;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 15%);
+}
+
+.quote-speech{
+    line-height: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 80%);
+}
+
+.quote-author{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.author-rank{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 60%);
+}
